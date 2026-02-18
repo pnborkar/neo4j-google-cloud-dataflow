@@ -51,23 +51,25 @@ Add the following to claude_desktop_config.json:
 ![01-Query2](./images/query_2.png)
 
 
+---
 
-## Quick Google ADK setup 
+# Quick Google ADK setup 
 
-# Install ADK 
+## Install ADK 
+
 ```
     python3 -m venv .venv
     source .venv/bin/activate
     pip install google-adk neo4j
 ```
 
-# Get to parent directory and run adk on your terminal window 
+## Get to parent directory and run adk on your terminal window 
 
 ```
    adk web 
 ```
 
-# On your browser, start asking questions. agent.py has very minimal code just to check 
+## On your browser, start asking questions. agent.py has very minimal code just to check 
 
 
 ![01-ADK](./images/adk1.png)
