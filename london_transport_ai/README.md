@@ -1,4 +1,4 @@
-# Neo4j + AI Integration (MCP + Claude Desktop)
+# Neo4j + AI Integration (MCP+ laude Desktop, Google ADK)
 
 ## Overview
 This project demonstrates how to connect Neo4j AuraDB to modern AI assistants using the Model Context Protocol (MCP).
