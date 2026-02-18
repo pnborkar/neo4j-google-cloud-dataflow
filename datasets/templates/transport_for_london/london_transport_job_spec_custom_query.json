@@ -7,12 +7,12 @@
     {
         "type": "bigquery",
         "name": "stations",
-        "query": "SELECT ID, Station_Name, Latitude, Longitude, Zone, Postcode FROM neo4jbusinessdev.london_transport.london_stations"
+        "query": "SELECT ID, Station_Name, Latitude, Longitude, Zone, Postcode FROM mytrainingproject-0211.london_transport.london_stations"
     },
     {
       "type": "bigquery",
       "name": "tube_lines",
-      "query": "SELECT Tube_Line, From_Station, To_Station FROM neo4jbusinessdev.london_transport.london_tube_lines"
+      "query": "SELECT Tube_Line, From_Station, To_Station FROM  mytrainingproject-0211.london_transport.london_tube_lines"
     }
   ],
   "targets": [
