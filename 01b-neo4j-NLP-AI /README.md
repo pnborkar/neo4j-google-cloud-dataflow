@@ -42,13 +42,9 @@ Add the following to claude_desktop_config.json:
 
 # Ask questions 
 
-![01-Schema](./images/show me schema.png)
-
-
+![01-Schema](./images/schema.png)
 
 ![01-Query1](./images/query_1.png)
-
-
 
 ![01-Query2](./images/query_2.png)
 
