@@ -51,6 +51,17 @@ Add the following to claude_desktop_config.json:
 ![01-Query2](./images/query_2.png)
 
 
+![01-Query2](./images/query_3.png)
+
+
+![01-Query2](./images/query_4.png)
+
+
+![01-Query2](./images/query_5.png)
+
+![01-Query2](./images/query_6.png)
+
+
 ---
 
 # Quick Google ADK setup 
