@@ -46,6 +46,8 @@ Add the following to claude_desktop_config.json:
 
 ![01-Query1](./images/query_1.png)
 
+![01-Query1](./images/query_1a.png)
+
 ![01-Query2](./images/query_2.png)
 
 
