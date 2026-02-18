@@ -57,8 +57,6 @@ Add the following to claude_desktop_config.json:
 ![01-Query4](./images/query4.png)
 
 
-![01-Query5](./images/query5.png)
-
 ![01-Query6](./images/query6.png)
 
 
