@@ -1,4 +1,4 @@
-# Neo4j + AI Integration (MCP+ laude Desktop, Google ADK)
+# Neo4j + AI Integration (MCP + Claude Desktop, Google ADK)
 
 ## Overview
 This project demonstrates how to connect Neo4j AuraDB to modern AI assistants using the Model Context Protocol (MCP).
@@ -52,3 +52,22 @@ Add the following to claude_desktop_config.json:
 
 
 
+## Quick Google ADK setup 
+
+# Install ADK 
+```
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install google-adk neo4j
+```
+
+# Get to parent directory and run adk on your terminal window 
+
+```
+   adk web 
+```
+
+# On your browser, start asking questions. agent.py has very minimal code just to check 
+
+
+![01-ADK](./images/adk1.png)
