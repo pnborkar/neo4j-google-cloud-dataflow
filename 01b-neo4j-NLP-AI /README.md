@@ -38,8 +38,19 @@ Add the following to claude_desktop_config.json:
 ```
 
 # Start Claude Desktop 
-![01-create_dataset](./images/neo4j_mcp.png)
+![01-MCP](./images/neo4j_mcp.png)
 
 # Ask questions 
+
+![01-Schema](./images/show me schema.png)
+
+
+
+![01-Query1](./images/query_1.png)
+
+
+
+![01-Query2](./images/query_2.png)
+
 
 
