@@ -7,10 +7,10 @@ It enables natural language questions to be translated into Cypher queries and e
 
 
 ## Prerequistics 
-•	Neo4j AuraDB instance
-•	Claude Desktop installed
-•	Python 3.10+
-•	uv (https://github.com/astral-sh/uv)
+1.	Neo4j AuraDB instance
+2.	Claude Desktop installed
+3.	Python 3.10+
+4.	uv (https://github.com/astral-sh/uv)
 
 
 ## Setup
