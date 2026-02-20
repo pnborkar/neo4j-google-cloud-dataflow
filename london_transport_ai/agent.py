@@ -51,8 +51,8 @@ cypher_tool = FunctionTool(run_cypher)
 
 root_agent = LlmAgent(
     name="london_transport_assistant",
-    model="gemini-2.0-flash",   # ✅ fixed model
-    tools=[schema_tool, cypher_tool],  # ✅ tools attached
+    model="gemini-2.0-flash",   
+    tools=[schema_tool, cypher_tool],  
     instruction="""
 You are a Neo4j graph assistant.
 You help users understand schema, write Cypher queries,
