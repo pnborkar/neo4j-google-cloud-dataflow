@@ -3,9 +3,8 @@ from neo4j import GraphDatabase
 from google.adk.agents import LlmAgent
 from google.adk.tools import FunctionTool
 
-# =========================
 # Environment Variables
-# =========================
+
 NEO4J_URI = os.getenv("NEO4J_URI")
 NEO4J_USERNAME = os.getenv("NEO4J_USERNAME")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
@@ -13,17 +12,14 @@ NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
 if not all([NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD]):
     raise ValueError("Missing Neo4j environment variables.")
 
-# =========================
 # Neo4j Driver Setup
-# =========================
+
 driver = GraphDatabase.driver(
     NEO4J_URI,
     auth=(NEO4J_USERNAME, NEO4J_PASSWORD)
 )
 
-# =========================
 # Tool Functions
-# =========================
 
 def get_schema():
     """Returns Neo4j database schema."""
@@ -33,6 +29,7 @@ def get_schema():
             return str(result.data())
     except Exception as e:
         return f"Error fetching schema: {str(e)}"
+
 
 
 def run_cypher(query: str):
@@ -45,16 +42,12 @@ def run_cypher(query: str):
         return f"Error executing query: {str(e)}"
 
 
-# =========================
 # Register Tools
-# =========================
 
 schema_tool = FunctionTool(get_schema)
 cypher_tool = FunctionTool(run_cypher)
 
-# =========================
 # Root Agent
-# =========================
 
 root_agent = LlmAgent(
     name="london_transport_assistant",
